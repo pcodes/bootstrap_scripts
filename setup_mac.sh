@@ -10,7 +10,7 @@ function install_homebrew {
 }
 
 function install_homebrew_packages {
-	core_packages=("fzf" "gh" "jq" "lsd" "neofetch" "neovim" "poetry" "rustup-init" "font-fira-code-nerd-font" "figlet")
+	core_packages=("fzf" "gh" "jq" "lsd" "neofetch" "neovim" "poetry" "rustup-init" "font-fira-code-nerd-font" "figlet" "npm")
 	cask_packages=("1password" "1password-cli" "alfred" "bartender" "fantastical" "firefox" "kitty" "nextcloud" "obsidian" "rectangle" "slack" "spotify" "todoist")
 
 	echo "Installing core homebrew packages..."
